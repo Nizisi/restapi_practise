@@ -5,4 +5,7 @@ It is a API I created for the senior project, which is a machine monitor system.
 * Language: C#
 * API type: Rest
 * service: 
-** MongoDB Service: interact with MongoDB collection
+  * MongoDB Service: interact with MongoDB collection
+  
+ ## Future plan:
+ * Add service for PDF generation
