@@ -6,7 +6,7 @@ It is an API I created for the senior project, which is a machine monitor system
 * API type: Rest
 * service: 
   * MongoDB Service: interact with MongoDB collection
-   *include: get, get based on id, get based on timeframe, post
+   * include: get, get based on id, get based on timeframe, post
    * New added: get/csv: generate csv report and download
   
  ## Future plan:
