@@ -3,6 +3,7 @@
 It is an API I created for the senior project: [System_Monitor_UI](https://github.com/GraceErickson3-14/System-Monitor-UI.git) (you can find it in my repository), which is a machine monitor system. This API serves not only the basic CRUD function to receive frontend request to interact with data from the connected MongoDB database, but also provides routes for special service, for example, generate csv report for data.
 ## Property:
 * Language: C#
+* Library used: CSVHelper, MongoDB.Driver
 * API type: Rest
 * service: 
   * MongoDB Service: interact with MongoDB collection
