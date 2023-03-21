@@ -8,7 +8,11 @@ It is an API I created for the senior project: [System_Monitor_UI](https://githu
   * MongoDB Service: interact with MongoDB collection
    * include: get, get based on id, get based on timeframe, post
    * New added: get/csv: generate csv report and download
+   * Dcokerized with docker support
+   '''
+   docker pull honkaidocker/restapi:latest
+   '''
   
  ## Future plan:
  * Add service for PDF generation (project switch to csv now)
- * Dockerizing the api (current)
+ * Dockerizing the api (finished)
