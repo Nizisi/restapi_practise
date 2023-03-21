@@ -16,3 +16,4 @@ It is an API I created for the senior project: [System_Monitor_UI](https://githu
  ## Future plan:
  * Add service for PDF generation (project switch to csv now)
  * Dockerizing the api (finished)
+ * Adding ability to send alert message to front end(current)
