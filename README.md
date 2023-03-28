@@ -13,6 +13,7 @@ It is an API I created for the senior project: [System_Monitor_UI](https://githu
      ```
      docker pull honkaidocker/restapi:latest
      ```
+   * The datamodel has array of disks data so the api is able to handle data from all disks (using mapping to flatten the array to CSVHelper can handle it)
   
  ## Future plan:
  * Add service for PDF generation (project switch to csv now)
