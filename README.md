@@ -7,14 +7,15 @@ It is an API I created for the senior project: [System_Monitor_UI](https://githu
 * API type: Rest
 * service: 
   * MongoDB Service: interact with MongoDB collection
-   * include: get, get based on id, get based on timeframe, post
-   * New added: get/csv: generate csv report and download
+   * include: get, get based on ip address, get based on timeframe, post,  Get,Post,Update to the new threshold collection
+   * get/csv: generate csv report and download
    * Dcokerized with docker support
      ```
      docker pull honkaidocker/restapi:latest
      ```
    * The datamodel now has array of disks data so the api is able to handle data from all disks (using mapping to flatten the array to CSVHelper can handle it)
-   * (current) api is now have the function to connect to both metric and threshold collection, and able to apply crud to the new threshold collection.
+   * (current) api is now have the function to connect to both metric and threshold collection, and able to apply Get,Post,Update to the new threshold collection.
+   * get by ip address now reuturn all matched data instead of just the first one in the collection
   
  ## Future plan:
  * Add service for PDF generation (project switch to csv now)
